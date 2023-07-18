@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TALENTCANVAS</title>
+    <link rel="stylesheet" href="./style.css">
+    <!---<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">-->
+    <script src="https://kit.fontawesome.com/2ada433806.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="./images/talentcanvas_final.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                 <li><a href="#contact">Contact</a></li>
+                 <!--<li><i class="fas fa-times" onclick="closemenu()"></i></li>--->
+                <li><i class="fa-solid fa-xmark" onclick="closemenu()"></i></li>
+            </ul>
+            <li class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <!--<p>Webdevloper</p>--->
+           <h1>Hi, I'm <span>Sourav</span></h1>
+           <div class="wrapper">
+            <div class="fixed-text">I'm a</div>
+            <ul class="movingtxt">
+                <li><span>Devloper</span></li>
+                <li><span>Coder</span></li>
+                <li><span>Student</span></li>
+            </ul>
+           </div>
+
+        </div>
+    </div>
+</div>
+
+<!-----------about---------->
+<div id="about">
+   <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+            <img src="./images/user1.png" alt="dveloper image">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Hello! I'm Sourav Mohanta, a 3rd-year student at NIT Durgapur, Currently, I am interning at NIT Durgapur, where I have been actively applying my skills in HTML, CSS, JavaScript, and ML algorithms to contribute in my projects of a Telemedicine website.
+             </p>
+                <p>
+                Apart from my technical expertise, I have a strong foundation in Data Structures and Algorithms (DSA), which enables me to create efficient and optimized solutions.
+            </p>
+            <p>
+                Academically, I have successfully cleared JEE Main Advance and WBJEE examinations, showcasing my dedication and aptitude for technical subjects. I am also a recipent of the prestigious Swami Vivekananda Scholarship(3 times), which recognizes my academic excellence.
+              </p>
+              <!-- <p>
+                Beyond the world of technology, I have a deep love for art and drawing, with sketching being one of my favorite creative outlets. I believe that the combination of technical expertise and artistic sensibility allows me to approach problem-solving from a unique perspective.
+                </p> -->
+                <p>
+                With my dedication and determination, I aspire to become a successful developer, creating innovative solutions and contributing to the ever-evolving tech industry.
+                </p><p>
+                Thank you for taking the time to learn more about me. I am excited to embark on new challenges and collaborations. Feel free to reach out if you would like to know more or explore potential opportunities! </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents  active-tab" id="skills">
+                <ul>
+                    <li><span>Web Devlopment</span><br>HTML,CSS,JAVA-SCRIPT</li>
+                    <li><span>Coding Language</span><br>C,C++,Python,DSA</li>
+                    <li><span>Machine Learning</span><br>Regresion,Decition Tree,Random Forest</li>                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience" >
+                <ul>
+                    <li><span>May,2023 - Current</span><br>Research Intern @ NIT Durgapur</li>
+                    <li><span>Februry,2023 - Current</span><br>Event Manager @IIM student chapter NIT Durgapur</li>
+                    <li><span>May,2023 - June,2023</span><br>ISP at Internshala</li>
+                    <!--<li><span>ML</span><br>Machine Learning</li>-->                    
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Currently</span><br>3rd-year of NIT Durgapur</li>
+                    <li><span>2020</span><br>class XII complted from Balurghat High School</li>
+                    <li><span>2018</span><br>class X complted from Balurghat High School</li>                    
+                </ul>
+            </div>
+        </div>
+     </div>
+   </div>
+</div>
+
+<!-- ----------services----------->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+         <div>
+            <i class="fa-solid fa-code"></i>
+            <h2> Research Intern</h2>
+            <p>I am currently a summer research intern at NIT Durgapur, working on upgrading a Telemedicine website for an NGO. My tasks include implementing features like audio recording, merging doctor's and patient's videos, and enhancing the overall user experience.</p>
+            <a href="https://telemedicine-22.onrender.com/">Read More</a>
+         </div>
+         <div>
+            <i class="fa-solid fa-bullhorn"></i> 
+            <h2>Campus Ambasator</h2>
+            <p>As an ISP at Internshala and the face of NIT Durgapur, your main responsibilities would include promoting Internshala's new courses, offers, and creating awareness among students about Internshala. </p>
+            <a href="./images/ISP 35 - joining letter.pdf">Read More</a>
+         </div>
+         <!--<div>
+            <h2>Web Design</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, dolorem eligendi molestias libero voluptates tempora asperiores nam in cumque itaque quam, atque, veniam corporis! At vero debitis fuga pariatur iusto.</p>
+            <a href="#">Read More</a>
+         </div>-->
+        </div>
+    </div>
+</div> 
+
+<!--------portfolio---------->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/weather.png" alt="weather-img">
+                <div class="layer">
+                <h3>ForecastGuru</h3>
+                <p>This app give you Weather details of different places</p>
+                <a href="https://forecast-guru.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <!-- <div class="work">
+                <img src="./images/weather.png" alt="weather-img">
+                <div class="layer">
+                <h3>Weather Web-App</h3>
+                <p>This app give you Weather details of different places</p>
+                <a href="https://forecast-guru.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="work">
+                <img src="./images/weather.png" alt="weather-img">
+                <div class="layer">
+                <h3>Weather Web-App</h3>
+                <p>This app give you Weather details of different places</p>
+                <a href="https://forecast-guru.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div> -->
+        </div> 
+        <a href="https://github.com/sourav-sm" class="btn">Learn More</a>  
+    </div>
+</div>
+<!-------Contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fas fa-envelope"></i>souravmohanta4428@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9832786676</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                    <a href="https://www.linkedin.com/in/sourav-mohanta-756815223/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                  </a>      
+                  <a href="https://github.com/sourav-sm" target="_blank">
+                    <i class="fab fa-github"></i>
+                 </a> 
+                 <a href="https://www.instagram.com/souravmohanta4428/" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                 </a>    
+                </div>
+                <a href="./images/Resume_Sourav_offcampus.pdf" download class="btn btn2">Download CV</a>
+            </div>                
+            <div class="contact-right">
+                <form action=https://formspree.io/f/xaygyrlk method="POST" id="contact-form">
+                 <!--name="submit-to-google-sheet"> -->
+                 <!-- <form onsubmit="sendEmail(); reset();return false;">   -->
+                 <input type="text" name="Name" placeholder="Your Name" required><!--here we required because to make it important the from is not submit with out filling up this fortion it is like star in google form-->
+                   <input type="email" name="Email" placeholder="Your Email Id" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div> 
+         </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fas fa-circle"></i> Copyright &copy; Made by Sourav blackpanthers</p>
+        </div>
+</div>
+
+<!-- <script src="script.js"></script> -->
+<!--for click feature in about section -->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+</script> 
+
+<!--for menu-->
+<script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+</script> 
+<!--  for contact form -->
+
+<!-- <script>
+    <form action=https://formspree.io/f/xaygyrlk method="POST">
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = "";
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    }) -->
+  
+</body>
+</html>
+
+
