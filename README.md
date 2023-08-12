@@ -1,7 +1,8 @@
 # Talent_Canvas
 this is a portfolio website to showcase my technical skills
-![Screenshot 2023-08-10 224035](https://github.com/sourav-sm/Talent_Canvas/assets/116539402/99e1c67f-7f91-4fbd-a24a-078504c![Screenshot 2023-08-12 193414](https://github.com/sourav-sm/Talent_Canvas/assets/116539402/2962539d-de43-4ccf-a4f7-487bc0d6857![Screenshot 2023-08-12 193446](https://github.com/sourav-sm/Talent_Canvas/assets/116539402/a1e2cf16-0cd7-4d80-8952-0942040dcc8e)![Screenshot 2023-08-10 224200](https://github.com/sourav-sm/Talent_Canvas/assets/116539402/d5defa95-461b-474b-9aae-7a498a6a9a1d)
-![Uploading Screenshot 2023-08-10 224123.png…]()
-
-5)
-c4731)
+# output
+![Screenshot 2023-08-10 224035](https://github.com/sourav-sm/Talent_Canvas/assets/116539402/024eaa48-0b5c-4e26-8d27-b85c8e916556)
+![Screenshot 2023-08-10 224123](https://github.com/sourav-sm/Talent_Canvas/assets/116539402/6868ddf5-59a6-4057-b963-a36b81f96452)
+![Screenshot 2023-08-12 193414](https://github.com/sourav-sm/Talent_Canvas/assets/116539402/a032e08a-0d5e-4cae-82c3-4a9de3875356)
+![Screenshot 2023-08-12 193446](https://github.com/sourav-sm/Talent_Canvas/assets/116539402/2192b599-fdd5-4e3f-b580-d6e58179185a)
+![Screenshot 2023-08-10 224200](https://github.com/sourav-sm/Talent_Canvas/assets/116539402/cc8cb447-a88c-4fe0-920d-a41b2431837d)
