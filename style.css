@@ -33,7 +33,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 90%;
+    height: 100%;
     object-fit: cover;
     z-index: -1;
   }
@@ -78,19 +78,24 @@ nav ul li a:hover::after{
 .header-text{
     /* margin-top: 20%;
     font-size: 30px; */
+    margin-top: 13%;
+    margin-bottom: 18%;
     position: relative;
     z-index: 1;
     text-align: center;
     padding: 10px 10%;
     /* color: white; */
 }
-.header-text h1{
+.header-text h2{
     font-size: 60px;
     margin-top: 20px;
 
 }
-.header-text h1 span{
-    color: #ff004f ;
+.header-text h2 span{
+    font-family: "Acme",sans-serif;
+    font-weight:750;
+    font-size: 90px;
+    color: #f73666;
 }
 
 /************ code for animation of text *************/
@@ -101,6 +106,9 @@ nav ul li a:hover::after{
     color: #fff;
     font-size: 60px;
     font-weight: 800;
+}
+.column{
+    flex-direction: column;
 }
 .movingtxt{
   margin-left: 15px;
@@ -143,11 +151,16 @@ nav ul li a:hover::after{
         margin: 0 -35px 0 35px;
     }
 }
+.header-text p{
+    margin-top: 5%;
+    font-weight: 100;
+}
 /*-----------about--------------->*/
 
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color: #faf3f3;
+    background: #6f2232;
 }
 p{
     font-size: 18px;
