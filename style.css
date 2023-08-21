@@ -426,7 +426,7 @@ p{
 }
 @media only screen and (max-width:600px){
     #header{
-        background-image: url(./images/background_phone_6.png);
+        background: url(./images/Network_R.mp4);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
