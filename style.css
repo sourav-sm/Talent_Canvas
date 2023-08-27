@@ -425,14 +425,14 @@ p{
     display: none;
 }
 @media only screen and (max-width:600px){
-    #header{
+    #background-video {
         background: url(./images/Network_R.mp4);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
     }
     .header-text{
-        margin-top: 0%;
+        margin-top: 1000%;
         font-size: 16px;
     }
     .header-text h1{
@@ -475,7 +475,7 @@ p{
         background:#ff004f ;
         position: fixed;
         top: 0;
-        right: -200px;/*because width is 200px*/
+        right: -2000px;/*because width is 200px*/
         width: 200px;
         height: 100vh;
         padding-top: 50px;

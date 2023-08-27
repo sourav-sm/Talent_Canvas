@@ -6,6 +6,7 @@
     <title>TALENTCANVAS</title>
     <link rel="stylesheet" href="./style.css">
     <!---<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">-->
+    <!-- <script src="https://kit.fontawesome.com/2ada433806.js" crossorigin="anonymous"></script> -->
     <script src="https://kit.fontawesome.com/2ada433806.js" crossorigin="anonymous"></script>
 
 </head>
@@ -13,23 +14,27 @@
 <!-- <div id="header"> -->
 <div class="video-container">
     <!-- <div class="video-container"> -->
-        <video autoplay muted loop id="background-video">
-            <source src="./images/Network_R.mp4" type="video/mp4">
+        <video autoplay muted loop plays-inline id="background-video">
+            <!-- <source src="./images/Network_R.webm" type="video/webm"> -->
+            <source src="./images/Network_R (1).mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
     <div class="container">
         <nav>
             <img src="./images/talentcanvas_final.png" class="logo">
             <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
+                <li><a href="#background-video">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Service</a></li>
                 <li><a href="#Portfolio">Portfolio</a></li>
                  <li><a href="#contact">Contact</a></li>
                  <!--<li><i class="fas fa-times" onclick="closemenu()"></i></li>--->
-                <li><i class="fa-solid fa-xmark" onclick="closemenu()"></i></li>
+                 <!-- <i class="fa-solid fa-xmark" onclick="closemenu()"></i> -->
+                  <li><i class="fa-solid fa-xmark"></i></li>
             </ul>
-            <li class="fa-solid fa-bars" onclick="openmenu()"></i>
+            <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+<i class="fa-solid fa-bars" id="menu-icon"></i>
+
         </nav>
         <div class="header-text">
             <!--<p>Webdevloper</p>--->
@@ -76,7 +81,7 @@
                 Thank you for taking the time to learn more about me. I am excited to embark on new challenges and collaborations. Feel free to reach out if you would like to know more or explore potential opportunities! </p> -->
               
             <!-- new about section -->
-            <p _ngcontent-kxm-c5="" class="contentMe mainR"> 💬 student, self-taught coder<br _ngcontent-kxm-c5=""> 📙 studies at National Institute of Technology, Durgapur<br _ngcontent-kxm-c5=""> 🔭 intrested in web-development, open-source, iot, anything tech<br _ngcontent-kxm-c5=""> 🖥 develops webapps. back-end works.<br _ngcontent-kxm-c5=""> 😘 loves graphic designing<br _ngcontent-kxm-c5=""> 📚 branch electrical engineering<br _ngcontent-kxm-c5=""> 🧩 likes gaming. cycling. and obviously coding </p>
+            <p _ngcontent-kxm-c5="" class="contentMe mainR"> 💬 student, self-taught coder<br _ngcontent-kxm-c5=""> 📙 studies at National Institute of Technology, Durgapur<br _ngcontent-kxm-c5=""> 🔭 intrested in web-development, freelearncing,open-source, iot, anything tech<br _ngcontent-kxm-c5=""> 🖥 develops webapps. front-end works.<br _ngcontent-kxm-c5=""> 😘 loves sketching<br _ngcontent-kxm-c5=""> 📚 branch Matellurgical and Materials Engineering<br _ngcontent-kxm-c5=""> 🧩 likes gaming. cycling. and obviously Coding </p>
 
                 <div class="tab-titles">
                 <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
@@ -149,15 +154,15 @@
                 <a href="https://forecast-guru.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                 </div>
             </div>
-            <!-- <div class="work">
-                <img src="./images/weather.png" alt="weather-img">
+             <div class="work">
+                <img src="./images/TO_DO_LIST_1.png" alt="TO DO LIST">
                 <div class="layer">
-                <h3>Weather Web-App</h3>
-                <p>This app give you Weather details of different places</p>
-                <a href="https://forecast-guru.vercel.app/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <h3>Day Planer</h3>
+                <p>with the webapp you can plan your day more efficiently</p>
+                <a href="https://sourav-sm.github.io/DAY_PLANER/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
               </div>
             </div>
-            <div class="work">
+            <!--<div class="work">
                 <img src="./images/weather.png" alt="weather-img">
                 <div class="layer">
                 <h3>Weather Web-App</h3>
@@ -211,35 +216,48 @@
         </div>
 </div>
 
-<script src="script.js"></script>
+<!-- <script src="script.js"></script> -->
 <!--for click feature in about section -->
 <script>
-//     var tablinks = document.getElementsByClassName("tab-links");
-//     var tabcontents = document.getElementsByClassName("tab-contents");
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
 
-//     function opentab(tabname){
-//       for(tablink of tablinks){
-//         tablink.classList.remove("active-link");
-//       }
-//       for(tabcontent of tabcontents){
-//         tabcontent.classList.remove("active-tab");
-//       }
-//       event.currentTarget.classList.add("active-link");
-//       document.getElementById(tabname).classList.add("active-tab")
-//     }
-// </script> 
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+ </script> 
 
-// <!--for menu-->
-// <script>
-//     var sidemeu = document.getElementById("sidemenu");
+<!--for menu-->
+<script>
+    // var sidemeu = document.getElementById("sidemenu");
 
-//     function openmenu(){
-//         sidemeu.style.right = "0";
-//     }
-//     function closemenu(){
-//         sidemeu.style.right = "-200px";
-//     }
-//  </script> 
+    // function openmenu(){
+    //     sidemeu.style.right = "0";
+    // }
+    // function closemenu(){
+    //     sidemeu.style.right = "-200px";
+    // }
+    var sidemenu = document.getElementById("sidemenu");
+    var menuIcon = document.getElementById("menu-icon");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+
+    menuIcon.addEventListener("click", openmenu);
+    document.querySelector(".fa-xmark").addEventListener("click", closemenu);
+ </script> 
 <!--  for contact form -->
 
 <!-- <script>
